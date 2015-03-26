@@ -22,7 +22,7 @@
 	font: {
 		fontSize: 30,
 		fontFamily: 'Helvetica Neue',
-		fontColor: "#399"
 	},
+	backgroundColor: "339"
 	
 }

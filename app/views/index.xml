@@ -2,8 +2,10 @@
 	<TabGroup>
 		<Tab title="Monday" icon="KS_nav_ui.png">
 			<Window title="Monday">
-				<Label id="intro"> Welcome to CSG West\n2015</Label>
 				<TableView>
+					<HeaderView>
+						<Label id="intro">CSG West Conference 2015</Label>
+					</HeaderView>
 					<TableViewRow>
 						<Label>1:00 - 6:00 p.m. \nMeeting registration & information desks open</Label>
 					</TableViewRow>					
@@ -13,6 +15,9 @@
 		<Tab title="Tuesday" icon="KS_nav_ui.png">
 			<Window title="Tuesday">
 				<TableView>
+					<HeaderView>
+						<Label id="intro">CSG West Conference 2015</Label>
+					</HeaderView>
 					<TableViewRow>
 						<Label>6:30 - 7:30 a.m.\nEarly bird walk</Label>
 					</TableViewRow>
@@ -61,6 +66,9 @@
 		<Tab title="Wednesday" icon="KS_nav_ui.png">
 			<Window title="Wednesday">
 				<TableView>
+					<HeaderView>
+						<Label id="intro">CSG West Conference 2015</Label>
+					</HeaderView>
 					<TableViewRow>
 						<Label>6:30 - 7:30 a.m.\nEarly bird walk</Label>
 					</TableViewRow>
@@ -91,6 +99,9 @@
 		<Tab title="Thursday" icon="KS_nav_ui.png">
 			<Window title="Thursday">
 				<TableView>
+					<HeaderView>
+						<Label id="intro">CSG West Conference 2015</Label>
+					</HeaderView>
 					<TableViewRow>
 						<Label>6:30 - 7:30 a.m.\nEarly bird walk</Label>
 					</TableViewRow>
@@ -127,6 +138,9 @@
 		<Tab title="Friday" icon="KS_nav_ui.png">
 			<Window title="Friday">
 				<TableView>
+					<HeaderView>
+						<Label id="intro">CSG West Conference 2015</Label>
+					</HeaderView>
 					<TableViewRow>
 						<Label>6:30 - 7:30 a.m.\nEarly bird walk</Label>
 					</TableViewRow>
