@@ -22,7 +22,8 @@ function onClickTu1(e)
 		
 			var reminder = event.createAlert({
 			absoluteDate: new Date(2015,7,28,7,30)
-			});  
+			}); 
+			event.alerts=[reminder]; 
 			event.save(Ti.Calendar.SPAN_FUTUREEVENTS);
 			alert("This event has been added to your calendar!");
         } else {
