@@ -8,8 +8,8 @@ function onClickTu1(e)
  	{
         if (e.success) {
           	var defCalendar = Ti.Calendar.defaultCalendar;				
-				var start = new Date(2015, 7, 28, 7, 45);
-				var end = new Date(2015, 7, 28, 8, 30);
+				var start = new Date(2015, 6, 28, 7, 45);
+				var end = new Date(2015, 6, 28, 8, 30);
 			Ti.API.info('start:' + start + ' end:' + end);
 			var event = defCalendar.createEvent({
 				title: 'First time Attendee Breakfast.  Welcome & Orientation for Newcomers',
@@ -23,6 +23,7 @@ function onClickTu1(e)
 			var reminder = event.createAlert({
 			absoluteDate: new Date(2015,7,28,7,30)
 			});  
+			event.save(Ti.Calendar.SPAN_FUTUREEVENTS);
         } else {
             alert($.Tu1.text);
         };
