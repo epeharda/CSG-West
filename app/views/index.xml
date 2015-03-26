@@ -2,8 +2,8 @@
 	<TabGroup>
 		<Tab title="Monday" icon="KS_nav_ui.png">
 			<Window title="Monday">
-				<TableView id="table">
-					<TableViewRow id="row">
+				<TableView>
+					<TableViewRow>
 						<Label>1:00 - 6:00 p.m. \nMeeting registration & information desks open</Label>
 					</TableViewRow>					
 				</TableView>
@@ -11,47 +11,47 @@
 		</Tab>
 		<Tab title="Tuesday" icon="KS_nav_ui.png">
 			<Window title="Tuesday">
-				<TableView id="table">
-					<TableViewRow id="row">
+				<TableView>
+					<TableViewRow>
 						<Label>6:30 - 7:30 a.m.\nEarly bird walk</Label>
 					</TableViewRow>
-					<TableViewRow id="row">
+					<TableViewRow >
 						<Label>7:00 - 6:30 p.m.\nMeeting registration & information desks open</Label>
 					</TableViewRow>	
-					<TableViewRow id="row">
+					<TableViewRow>
 						<Label>7:30 - 8:30 a.m.\nBuffet Breakfast</Label>
 					</TableViewRow>	
-					<TableViewRow id="row">
+					<TableViewRow>
 						<Label>7:45 - 8:30 a.m.\nFirst Time Attendee Breakfast\nWelcome & Orientation for Newcomers</Label>
 					</TableViewRow>
-					<TableViewRow id="row">
+					<TableViewRow>
 						<Label>8:30 - 9:25 a.m.\nOpening Ceremony</Label>
 					</TableViewRow>	
-					<TableViewRow id="row">
+					<TableViewRow>
 						<Label>9:30 - 11:00 a.m.\nExecutive Committee - Western Legislative Academy Selection</Label>
 					</TableViewRow>
-					<TableViewRow id="row">
+					<TableViewRow>
 						<Label>9:30 - 10:30 a.m.\nSpouse Meet & Greet</Label>
 					</TableViewRow>	
-					<TableViewRow id="row">
+					<TableViewRow>
 						<Label>9:30 - 12:30 p.m.\nAnnual Legislative Training Assemby (ALTA)</Label>
 					</TableViewRow>	
-					<TableViewRow id="row">
+					<TableViewRow>
 						<Label>11:15 - 12:30 p.m.\nNominating Committee (invite only)</Label>
 					</TableViewRow>	
-					<TableViewRow id="row">
+					<TableViewRow>
 						<Label>12:30 - 2:00 p.m.\nLunch & keynote speaker, Jeremy Bloom</Label>
 					</TableViewRow>	
-					<TableViewRow id="row">
+					<TableViewRow>
 						<Label>2:00 - 5:00 p.m.\nCSG West Policy Committees\n*Transportation & Economic Development Committee\n*Energy & Environment Committee</Label>
 					</TableViewRow>		
-					<TableViewRow id="row">
+					<TableViewRow>
 						<Label>5:00 - 6:45 p.m.\nCSG West Women in Politics</Label>
 					</TableViewRow>	
-					<TableViewRow id="row">
+					<TableViewRow>
 						<Label>7:00 - 9:00 p.m.\nWelcoming Reception, Vail Cascade</Label>
 					</TableViewRow>	
-					<TableViewRow id="row">
+					<TableViewRow>
 						<Label>9:00 - 10:00 p.m.\nSponsor Appreciation Reception</Label>
 					</TableViewRow>				
 				</TableView>
@@ -59,17 +59,98 @@
 		</Tab>
 		<Tab title="Wednesday" icon="KS_nav_ui.png">
 			<Window title="Wednesday">
-				<Label>I am Wednesday</Label>
+				<TableView>
+					<TableViewRow>
+						<Label>6:30 - 7:30 a.m.\nEarly bird walk</Label>
+					</TableViewRow>
+					<TableViewRow >
+						<Label>7:00 - 5:30 p.m.\nMeeting registration & information desks open</Label>
+					</TableViewRow>	
+					<TableViewRow>
+						<Label>7:30 - 8:45 a.m.\nBuffet Breakfast</Label>
+					</TableViewRow>	
+					<TableViewRow>
+						<Label>8:30 - 9:25 a.m.\nOpening Ceremony</Label>
+					</TableViewRow>	
+					<TableViewRow>
+						<Label>9:00 - 12:00 p.m.\nCSG West Policy Committees\n*WESTRENDS\n*Agriculture & Water Committee\n*Health and Human Services Committee</Label>
+					</TableViewRow>		
+					<TableViewRow>
+						<Label>12:00 - 1:40 p.m.\nLunch & keynote speaker, TBD</Label>
+					</TableViewRow>	
+					<TableViewRow>
+						<Label>1:45 - 5:30 p.m.\nBusses depart for Policy Tours at 1:45 p.m.\nBusses will return between 5-5:30 p.m.</Label>
+					</TableViewRow>	
+					<TableViewRow>
+						<Label>Free Evening</Label>
+					</TableViewRow>						
+				</TableView>
 			</Window>
 		</Tab>
 		<Tab title="Thursday" icon="KS_nav_ui.png">
 			<Window title="Thursday">
-				<Label>I am Thursday</Label>
+				<TableView>
+					<TableViewRow>
+						<Label>6:30 - 7:30 a.m.\nEarly bird walk</Label>
+					</TableViewRow>
+					<TableViewRow >
+						<Label>7:00 - 5:30 p.m.\nMeeting registration & information desks open</Label>
+					</TableViewRow>	
+					<TableViewRow>
+						<Label>7:30 - 8:45 a.m.\nBuffet Breakfast</Label>
+					</TableViewRow>		
+					<TableViewRow>
+						<Label>9:00 - 12:00 p.m.\nCSG West Policy Committees\n*Public Saftey Committee\n*Education and Workforce Development Committee</Label>
+					</TableViewRow>		
+					<TableViewRow>
+						<Label>12:00 - 1:45 p.m.\nLunch & keynote speaker, Jeannette Walls</Label>
+					</TableViewRow>	
+					<TableViewRow>
+						<Label>2:00 - 3:30 p.m.\nCSG West Private Sector Forum</Label>
+					</TableViewRow>	
+					<TableViewRow>
+						<Label>2:00 - 5:00 p.m.\nCSG West Policy Committees\n*State & Federal Relations Committee\n*Canada Relations Committee</Label>
+					</TableViewRow>						
+					<TableViewRow>
+						<Label>5:00 - 6:00 p.m.\n*Western Legislative Academy Alumni Reception (invite only)\n*North America Summit Reception</Label>
+					</TableViewRow>					
+					<TableViewRow>
+						<Label>6:15 p.m.\nBusses begin departing to 4 Eagle Ranch  (last bus leaves at 6:50 p.m.)</Label>
+					</TableViewRow>						
+					<TableViewRow>
+						<Label>6:30 - 9:30 p.m.\nDinner at 4 Eagle Ranch</Label>
+					</TableViewRow>						
+				</TableView>
 			</Window>
 		</Tab>
 		<Tab title="Friday" icon="KS_nav_ui.png">
 			<Window title="Friday">
-				<Label>I am Friday</Label>
+				<TableView>
+					<TableViewRow>
+						<Label>6:30 - 7:30 a.m.\nEarly bird walk</Label>
+					</TableViewRow>
+					<TableViewRow >
+						<Label>7:00 - 12:00 p.m.\nMeeting registration & information desks open</Label>
+					</TableViewRow>	
+					<TableViewRow>
+						<Label>7:30 - 8:45 a.m.\nBuffet Breakfast</Label>
+					</TableViewRow>		
+					<TableViewRow>
+						<Label>9:00 - 12:00 p.m.\nCSG West Policy Committee\n*Finance Committee</Label>
+					</TableViewRow>		
+					<TableViewRow>
+						<Label>9:00 - 12:00 p.m\nNorth America Summit</Label>
+					</TableViewRow>	
+					<TableViewRow>
+						<Label>12:00 - 1:45 p.m.\nLunch & keynote speaker, Adam Schrager</Label>
+					</TableViewRow>	
+					<TableViewRow>
+						<Label>2:00 - 4:30 p.m.\nExecutive Committee Meeting - Business Session</Label>
+					</TableViewRow>						
+					<TableViewRow>
+						<Label>6:00 - 8:30 p.m\nClosing Event - Eagles Nest</Label>
+					</TableViewRow>										
+				</TableView>
 			</Window>
 		</Tab>
 	</TabGroup>
