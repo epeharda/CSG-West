@@ -1,6 +1,6 @@
 <Alloy>
 	<TabGroup>
-		<Tab title="Tab 1" icon="KS_nav_ui.png">
+		<Tab title="Monday" icon="KS_nav_ui.png">
 			<Window title="Monday">
 				<TableView id="table">
 					<TableViewRow id="row">
@@ -9,7 +9,7 @@
 				</TableView>
 			</Window>
 		</Tab>
-		<Tab title="Tab 2" icon="KS_nav_ui.png">
+		<Tab title="Tuesday" icon="KS_nav_ui.png">
 			<Window title="Tuesday">
 				<TableView id="table">
 					<TableViewRow id="row">
@@ -23,21 +23,51 @@
 					</TableViewRow>	
 					<TableViewRow id="row">
 						<Label>7:45 - 8:30 a.m.\nFirst Time Attendee Breakfast\nWelcome & Orientation for Newcomers</Label>
-					</TableViewRow>						
+					</TableViewRow>
+					<TableViewRow id="row">
+						<Label>8:30 - 9:25 a.m.\nOpening Ceremony</Label>
+					</TableViewRow>	
+					<TableViewRow id="row">
+						<Label>9:30 - 11:00 a.m.\nExecutive Committee - Western Legislative Academy Selection</Label>
+					</TableViewRow>
+					<TableViewRow id="row">
+						<Label>9:30 - 10:30 a.m.\nSpouse Meet & Greet</Label>
+					</TableViewRow>	
+					<TableViewRow id="row">
+						<Label>9:30 - 12:30 p.m.\nAnnual Legislative Training Assemby (ALTA)</Label>
+					</TableViewRow>	
+					<TableViewRow id="row">
+						<Label>11:15 - 12:30 p.m.\nNominating Committee (invite only)</Label>
+					</TableViewRow>	
+					<TableViewRow id="row">
+						<Label>12:30 - 2:00 p.m.\nLunch & keynote speaker, Jeremy Bloom</Label>
+					</TableViewRow>	
+					<TableViewRow id="row">
+						<Label>2:00 - 5:00 p.m.\nCSG West Policy Committees\n*Transportation & Economic Development Committee\n*Energy & Environment Committee</Label>
+					</TableViewRow>		
+					<TableViewRow id="row">
+						<Label>5:00 - 6:45 p.m.\nCSG West Women in Politics</Label>
+					</TableViewRow>	
+					<TableViewRow id="row">
+						<Label>7:00 - 9:00 p.m.\nWelcoming Reception, Vail Cascade</Label>
+					</TableViewRow>	
+					<TableViewRow id="row">
+						<Label>9:00 - 10:00 p.m.\nSponsor Appreciation Reception</Label>
+					</TableViewRow>				
 				</TableView>
 			</Window>
 		</Tab>
-		<Tab title="Tab 3" icon="KS_nav_ui.png">
+		<Tab title="Wednesday" icon="KS_nav_ui.png">
 			<Window title="Wednesday">
 				<Label>I am Wednesday</Label>
 			</Window>
 		</Tab>
-		<Tab title="Tab 4" icon="KS_nav_ui.png">
+		<Tab title="Thursday" icon="KS_nav_ui.png">
 			<Window title="Thursday">
 				<Label>I am Thursday</Label>
 			</Window>
 		</Tab>
-		<Tab title="Tab 5" icon="KS_nav_ui.png">
+		<Tab title="Friday" icon="KS_nav_ui.png">
 			<Window title="Friday">
 				<Label>I am Friday</Label>
 			</Window>
