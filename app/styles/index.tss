@@ -10,5 +10,11 @@
 		fontSize: 20,
 		fontFamily: 'Helvetica Neue'
 	},
-	textAlign: 'center'
+	textAlign: 'left'
 } 
+"#table":{
+	
+}
+"#row":{
+
+}

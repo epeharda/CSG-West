@@ -2,27 +2,44 @@
 	<TabGroup>
 		<Tab title="Tab 1" icon="KS_nav_ui.png">
 			<Window title="Monday">
-				<Label>I am Window 1</Label>
+				<TableView id="table">
+					<TableViewRow id="row">
+						<Label>1:00 - 6:00 p.m. \nMeeting registration & information desks open</Label>
+					</TableViewRow>					
+				</TableView>
 			</Window>
 		</Tab>
-		<Tab title="Tab 2" icon="KS_nav_views.png">
+		<Tab title="Tab 2" icon="KS_nav_ui.png">
 			<Window title="Tuesday">
-				<Label>I am Window 2</Label>
+				<TableView id="table">
+					<TableViewRow id="row">
+						<Label>6:30 - 7:30 a.m.\nEarly bird walk</Label>
+					</TableViewRow>
+					<TableViewRow id="row">
+						<Label>7:00 - 6:30 p.m.\nMeeting registration & information desks open</Label>
+					</TableViewRow>	
+					<TableViewRow id="row">
+						<Label>7:30 - 8:30 a.m.\nBuffet Breakfast</Label>
+					</TableViewRow>	
+					<TableViewRow id="row">
+						<Label>7:45 - 8:30 a.m.\nFirst Time Attendee Breakfast\nWelcome & Orientation for Newcomers</Label>
+					</TableViewRow>						
+				</TableView>
 			</Window>
 		</Tab>
-		<Tab title="Tab 3" icon="KS_nav_views.png">
+		<Tab title="Tab 3" icon="KS_nav_ui.png">
 			<Window title="Wednesday">
-				<Label>I am Window 2</Label>
+				<Label>I am Wednesday</Label>
 			</Window>
 		</Tab>
-		<Tab title="Tab 4" icon="KS_nav_views.png">
+		<Tab title="Tab 4" icon="KS_nav_ui.png">
 			<Window title="Thursday">
-				<Label>I am Window 2</Label>
+				<Label>I am Thursday</Label>
 			</Window>
 		</Tab>
-		<Tab title="Tab 5" icon="KS_nav_views.png">
+		<Tab title="Tab 5" icon="KS_nav_ui.png">
 			<Window title="Friday">
-				<Label>I am Window 2</Label>
+				<Label>I am Friday</Label>
 			</Window>
 		</Tab>
 	</TabGroup>
