@@ -4,7 +4,7 @@ function onClickTu1(e)
 	//Tuesday
 	//7:45-8:30 AM
 	//First Time Attendee Breakfast
- 	Ti.Calendar.requestAuthorization(function(e)
+ 	Ti.Calendar.requestEventsAuthorization(function(e)
  	{
         if (e.success) {
           	var defCalendar = Ti.Calendar.defaultCalendar;				
