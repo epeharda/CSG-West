@@ -14,9 +14,15 @@
 	left: "0dp"
 	
 } 
-/*"#table":{
+"#grey":{
+	backgroundColor:"#CCC"
+}
+"#intro":{
+	textAlign:'center',
+	font: {
+		fontSize: 30,
+		fontFamily: 'Helvetica Neue',
+		fontColor: "#399"
+	},
 	
 }
-"#row":{
-
-}*/
