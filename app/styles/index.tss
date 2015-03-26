@@ -21,8 +21,8 @@
 	textAlign:'center',
 	font: {
 		fontSize: 30,
-		fontFamily: 'Helvetica Neue',
+		fontFamily: 'Helvetica Neue'
 	},
-	backgroundColor: "339"
-	
+	backgroundColor: "#99ccff",
+
 }
