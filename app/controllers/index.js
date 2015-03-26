@@ -24,6 +24,7 @@ function onClickTu1(e)
 			absoluteDate: new Date(2015,7,28,7,30)
 			});  
 			event.save(Ti.Calendar.SPAN_FUTUREEVENTS);
+			alert("This event has been added to your calendar!");
         } else {
             alert($.Tu1.text);
         };
