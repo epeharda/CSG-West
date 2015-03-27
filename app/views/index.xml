@@ -28,10 +28,10 @@
 						<Label >7:30 - 8:30 a.m.\nBuffet Breakfast</Label>
 					</TableViewRow>	
 					<TableViewRow id="grey">
-						<Label id="Tu1" onClick="onClickTu1">7:45 - 8:30 a.m.\nFirst Time Attendee Breakfast\nWelcome & Orientation for Newcomers</Label>
+						<Label id="Tu1" onSwipe="onSwipeTu1">7:45 - 8:30 a.m.\nFirst Time Attendee Breakfast\nWelcome & Orientation for Newcomers</Label>
 					</TableViewRow>
 					<TableViewRow>
-						<Label  id="Tu2" onClick="onClickTu2">8:30 - 9:25 a.m.\nOpening Ceremony</Label>
+						<Label>8:30 - 9:25 a.m.\nOpening Ceremony</Label>
 					</TableViewRow>	
 					<TableViewRow id="grey">
 						<Label>9:30 - 11:00 a.m.\nExecutive Committee - Western Legislative Academy Selection</Label>
